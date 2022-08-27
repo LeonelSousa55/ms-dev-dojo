@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import br.com.leonel.course.model.Course;
-import br.com.leonel.course.repository.CourseRepository;
+import br.com.leonel.core.model.Course;
+import br.com.leonel.core.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package br.com.leonel.course.model;
+package br.com.leonel.core.model;
 
 import java.io.Serializable;
 

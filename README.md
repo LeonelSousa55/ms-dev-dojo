@@ -9,6 +9,7 @@
 Seguindo a playList 'Spring Boot Microservices' do canal: [DevDojo](https://www.youtube.com/watch?v=wuu80nCpjdA&list=PL62G310vn6nH_iMQoPMhIlK_ey1npyUUl&index=3).
 
 <p>Spring Boot Microservices 01 - Setup Inicial: Nesse vídeo foi uma aplicação spring boot juntamento com alguns recursos de Course.</p>
+<p>Spring Boot Microservices 02 - Modularizando o Projeto: Nesse vídeo foi moduralizado o projeto core para poder ser usando como dependência</p>
 
 
 ## :rocket: Minhas Skills

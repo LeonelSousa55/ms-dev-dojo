@@ -1,4 +1,4 @@
-package br.com.leonel.course.model;
+package br.com.leonel.core.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
