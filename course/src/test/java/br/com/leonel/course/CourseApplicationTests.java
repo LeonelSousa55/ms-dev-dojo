@@ -1,6 +1,6 @@
 package br.com.leonel.course;
 
-import org.junit.jupiter.api.Test;
+/*import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
@@ -10,4 +10,4 @@ class CourseApplicationTests {
 	void contextLoads() {
 	}
 
-}
+}*/
