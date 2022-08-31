@@ -20,14 +20,22 @@
     <module>core</module>      
     <module>discovery</module>  
     <module>gateway</module> 
+    <module>auth</module> 
+    <module>token</module> 
   </modules>
 
   <properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+    <nimbus-jose.version>7.0</nimbus-jose.version>
 	</properties>
   	
   <dependencies> 
+    <dependency>
+      <groupId>com.nimbusds</groupId>
+      <artifactId>nimbus-jose-jwt</artifactId>
+      <version>${nimbus-jose.version}</version>
+  </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-zuul</artifactId>

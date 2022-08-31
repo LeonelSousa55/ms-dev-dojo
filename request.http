@@ -1,0 +1,14 @@
+GET http://localhost:8082/v1/admin/course
+
+###
+GET http://localhost:8080/gateway/course/v1/admin/course
+
+###
+POST http://localhost:8080/gateway/auth/login
+Content-Type: application/json
+
+{
+    "username": "leonel",
+    "password": "devdojo"
+}
+
