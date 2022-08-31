@@ -10,6 +10,7 @@ Seguindo a playList 'Spring Boot Microservices' do canal: [DevDojo](https://www.
 
 <p>Spring Boot Microservices 01 - Setup Inicial: Nesse vídeo foi uma aplicação spring boot juntamento com alguns recursos de Course.</p>
 <p>Spring Boot Microservices 02 - Modularizando o Projeto: Nesse vídeo foi moduralizado o projeto core para poder ser usando como dependência</p>
+<p>Spring Boot Microservices 03 - Service discovery Eureka e Gateway Zuul: Nesse vídeo foi configurado o Eureka juntamente com o Gateway Zuul</p>
 
 
 ## :rocket: Minhas Skills

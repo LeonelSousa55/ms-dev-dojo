@@ -22,12 +22,7 @@
 		<javax-activation.versionn>1.1.1</javax-activation.versionn>
     </properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency>
-
+	<dependencies>	
 		<dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
