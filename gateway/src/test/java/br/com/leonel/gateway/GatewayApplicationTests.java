@@ -1,17 +1,14 @@
 package br.com.leonel.gateway;
 
-/*import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
-@EnableZuulProxy
-@EnableEurekaClient
-class GatewayApplicationTests {
-
+public class GatewayApplicationTests {
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
-
-}*/
+}
