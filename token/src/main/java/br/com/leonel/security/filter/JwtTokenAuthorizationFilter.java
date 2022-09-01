@@ -17,6 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase; 
+
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class JwtTokenAuthorizationFilter extends OncePerRequestFilter {
@@ -35,7 +37,7 @@ public class JwtTokenAuthorizationFilter extends OncePerRequestFilter {
 
         String token = header.replace(jwtConfiguration.getHeader().getPrefix(), "").trim();
 
-        SecurityContextUtil.setSecurityContext("signed".equalsIgnoreCase(jwtConfiguration.getType()) ? validate(token) : decryptValidating(token));
+        SecurityContextUtil.setSecurityContext(equalsIgnoreCase("signed", jwtConfiguration.getType()) ? validate(token) : decryptValidating(token));
 
         chain.doFilter(request, response);
     }

@@ -13,10 +13,7 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-/**
- * @author William Suane
- */
-@Slf4j
+ @Slf4j
 public class SecurityContextUtil {
     private SecurityContextUtil() {
 
