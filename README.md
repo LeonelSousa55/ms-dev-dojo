@@ -15,6 +15,7 @@ Seguindo a playList 'Spring Boot Microservices' do canal: [DevDojo](https://www.
 <p>Spring Boot Microservices 05 - Authentication Service Signed and Encrypted JWT (JWS+JWE) pt 02: Continuando a configuração de segurança com o JWT/Token</p>
 <p>Spring Boot Microservices 06 - Moving token to a separate module: Organizando os modulos do token</p>
 <p>Spring Boot Microservices 07 - Authorization Filter Pt 01: Nesse vídeo foi iniciado as configurações de autorizações entre dos serviços</p>
+<p>Spring Boot Microservices 08 - Authorization Filter pt 02: Nessa aula foi finalizado a configuração de segurança para os depois modulos</p>
 
 
 ## :rocket: Minhas Skills
