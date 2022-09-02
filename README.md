@@ -23,7 +23,7 @@ Seguindo a playList 'Spring Boot Microservices' do canal: [DevDojo](https://www.
 ```
 $ docker-compose up
 ```
-### 2ª - Criar o banco de dados e popular as tabelas de application_user/couser.
+### 2ª - Criar o banco de dados.
 ```
 SQL: CREATE DATABASE devdojo;
 ```
