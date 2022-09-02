@@ -1,4 +1,4 @@
-package br.com.leonel.course.endpoint.services;
+package br.com.leonel.course.endpoint.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
