@@ -18,6 +18,32 @@ Seguindo a playList 'Spring Boot Microservices' do canal: [DevDojo](https://www.
 <p>Spring Boot Microservices 08 - Authorization Filter pt 02: Nessa aula foi finalizado a configuração de segurança para os depois modulos</p>
 <p>Spring Boot Microservices 09 - Swagger Documentation: Nesse vídeo foi organizado toda a documentação do projeto auth/course</p>
 
+## Passoa para executar o projeto:
+### 1ª - Executar o docker-compose que está dentro da pasta course para subir o banco.
+```
+$ docker-compose up
+```
+### 2ª - Criar o banco de dados e popular as tabelas de application_user/couser.
+```
+SQL: CREATE DATABASE devdojo;
+```
+
+### 3ª - Execute as aplicações na segunte ordem.
+* discovery
+* gateway
+* auth
+* course
+
+### 4ª - Agora será necessário polular as tabelas application_user/course, ex:.
+```
+SQL: INSERT INTO application_user (password, role, username) VALUES ('$2a$10$QPxuI0xtsPmXACwFFL93..vadYCQ6zbC0Oj9NIGwYoEQFU3Zft2fa', 'ADMIN', 'Leonel');
+SQL: INSERT INTO course (title) VALUES ('Boot Camp 1');
+SQL: INSERT INTO course (title) VALUES ('Boot Camp 2');
+SQL: INSERT INTO course (title) VALUES ('Boot Camp 3');
+```
+
+
+
 
 ## :rocket: Minhas Skills
 ### Experiências com desenvolvimentos
